@@ -158,7 +158,7 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p> Stay cute, shop smart</p>
+                        <p> Shop ‘til You Say Sugoi!</p>
                     </div>
                     <div class="float-end">
                         <p>KawaiiKoop © 2025</p>
