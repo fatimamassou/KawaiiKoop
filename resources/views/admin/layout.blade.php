@@ -28,7 +28,7 @@
                 <div class="sidebar-header">
                     <div class="d-flex justify-content-center">
                         <div class="logo shadow rounded">
-                            <a href="{{ route('home') }}">
+                            <a href="/">
                                 <img src='{{ asset("shop/".Auth::user()->shop->path."") }}' alt="Logo" srcset="" style="height:100px;" class="rounded">
                             </a>
                         </div>
