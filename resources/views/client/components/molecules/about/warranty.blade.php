@@ -5,7 +5,7 @@
         <h3 class="font-primary"><u>Warranty</u></h3>
       </div>
       <div class="col-lg-8 col-md-8 col-12">
-        <p class="font-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur voluptates, a dicta dolore repudiandae eos provident hic error? Non accusamus consequatur odio iste saepe, natus eligendi totam incidunt voluptate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt atque at repudiandae iusto! Laboriosam iusto animi ipsum, corrupti, exercitationem fugiat consectetur perferendis rem enim ad non est eos! Labore, qui?</p>
+        <p class="font-secondary">At Kawaiikoop, we pour love into every item we create! 💕 That’s why we offer a 30-day limited warranty on all products. If your item arrives damaged or has a manufacturing defect, we’ll gladly replace it or offer a store credit. Just reach out with your order number and a photo—we’re here to make things right!</p>
       </div>
     </div>
   </div>
