@@ -11,6 +11,7 @@ class Address extends Component
      *
      * @return void
      */
+    
     public function __construct()
     {
         //
@@ -21,8 +22,10 @@ class Address extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+
     public function render()
     {
         return view('client.components.molecules.about.address');
     }
+
 }
