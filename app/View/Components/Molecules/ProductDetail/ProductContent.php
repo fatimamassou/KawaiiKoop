@@ -11,7 +11,9 @@ class ProductContent extends Component
      *
      * @return void
      */
+
     public $dataProductContent;
+
     public function __construct($dataProductContent)
     {
         $this->dataProductContent = $dataProductContent;
@@ -22,6 +24,7 @@ class ProductContent extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.product-detail.product-content');
