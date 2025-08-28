@@ -25,6 +25,7 @@ class Data extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.check-order.data');
