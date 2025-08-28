@@ -11,7 +11,9 @@ class ProductImages extends Component
      *
      * @return void
      */
+
     public $dataProductimages;
+
     public function __construct($dataProductimages)
     {
         $this->dataProductimages = $dataProductimages;
@@ -22,6 +24,7 @@ class ProductImages extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.product-detail.product-images');
