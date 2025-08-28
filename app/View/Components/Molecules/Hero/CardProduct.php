@@ -11,7 +11,9 @@ class CardProduct extends Component
      *
      * @return void
      */
+
     public $title, $dataImage;
+
     public function __construct($title, $dataImage)
     {
         $this->title = $title;
@@ -23,6 +25,7 @@ class CardProduct extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.hero.card-product');
