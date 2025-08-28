@@ -27,6 +27,7 @@ class DiscountBlock extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.discount-block');
