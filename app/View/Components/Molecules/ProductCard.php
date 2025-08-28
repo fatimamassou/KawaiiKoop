@@ -12,7 +12,7 @@ class ProductCard extends Component
      * @return void
      */
 
-     public $image, $category, $title, $price;
+    public $image, $category, $title, $price;
 
     public function __construct($image, $category, $title, $price)
     {
@@ -27,6 +27,7 @@ class ProductCard extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.molecules.product-card');
