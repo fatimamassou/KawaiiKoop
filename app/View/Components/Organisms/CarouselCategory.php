@@ -11,7 +11,9 @@ class CarouselCategory extends Component
      *
      * @return void
      */
+
     public $category;
+
     public function __construct($category)
     {
         $this->category = $category;
@@ -22,6 +24,7 @@ class CarouselCategory extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.organisms.carousel-category');
