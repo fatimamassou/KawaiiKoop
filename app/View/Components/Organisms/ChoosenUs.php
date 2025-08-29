@@ -11,6 +11,7 @@ class ChoosenUs extends Component
      *
      * @return void
      */
+
     public function __construct()
     {
         //
@@ -21,6 +22,7 @@ class ChoosenUs extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.organisms.choosen-us');
