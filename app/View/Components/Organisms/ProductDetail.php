@@ -11,7 +11,9 @@ class ProductDetail extends Component
      *
      * @return void
      */
+
     public $dataProduct;
+
     public function __construct($dataProduct) 
     {
         $this->dataProduct = $dataProduct;
@@ -22,6 +24,7 @@ class ProductDetail extends Component
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
+    
     public function render()
     {
         return view('client.components.organisms.product-detail');
