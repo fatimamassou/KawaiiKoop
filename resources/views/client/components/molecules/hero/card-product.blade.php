@@ -1,5 +1,8 @@
 @foreach ($dataImage->take(1) as $image)
-    <div class="hero-product" style="background-image: url({{ asset('shop/products/'. $image->path ) }})">
+    <div 
+    class="hero-product" 
+    style="background-image: url({{ asset('shop/products/'. $image->path ) }})"
+    >
 @endforeach
 <div class="d-flex flex-column justify-content-between">
     <p class="text-white fw-bolder">{!! str_replace('-', ' ', ucwords($title)) !!} </p>
