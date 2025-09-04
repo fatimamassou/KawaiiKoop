@@ -26,6 +26,9 @@
             align-items:center;
             justify-content:center;
         }
+        body{
+            padding-top:2px;
+        }
     </style>
 
 </head>
