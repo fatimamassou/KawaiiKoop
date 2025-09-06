@@ -27,7 +27,7 @@
             justify-content:center;
         }
         body{
-            padding-top:2px;
+            padding-top:8px;
         }
     </style>
 
