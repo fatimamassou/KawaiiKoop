@@ -4,7 +4,7 @@
   <x-organisms.choosen-us />
   <x-organisms.discounts />
   <x-organisms.products :dataProduct="$product">
-    <h1 class="text-center pb-5">Recent Popular Product</h1>
+    <h1 class="text-center pb-5">Recent Popular Product/最近の人気商品</h1>
     <x-slot:productCTA>
       <div class="pt-5">
         <x-molecules.button text="More products" align="center" icon="bi-arrow-right" arrow="true" link="{{ route('clientProducts') }}"  />
