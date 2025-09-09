@@ -1,5 +1,5 @@
 <form action="{{ route('clientProductSearch') }}" class="search" method="GET">
-  <input class="search__input" type="search" placeholder="Search / 検索" id="searchInput" name="product" onfocus="Onfocus(this)" onblur="Onblur(this)">
+  <input class="search__input" type="search" placeholder="Search/検索" id="searchInput" name="product" onfocus="Onfocus(this)" onblur="Onblur(this)">
   <div class="search__icon-container">
     <label for="searchInput" class="search__label" aria-label="Search">
       <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
